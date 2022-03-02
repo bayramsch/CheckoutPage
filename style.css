@@ -1,0 +1,118 @@
+.main {
+  background-color: #eeeddd;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+
+.container__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10px;
+}
+
+.container__product .product_info {
+  width: 100%;
+  line-height: 1.2;
+}
+
+.container__product img {
+  width: 30%;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.container__product h3 {
+  font-weight: 600;
+}
+
+.container__product .preis {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.container__product .preis::before {
+  content: "$";
+}
+
+.container__product .span_del {
+  font-size: 12px;
+}
+
+.container__product .quantity {
+  background-color: eeeddd;
+  width: 180px;
+  height: 40px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.container__product .quantity button {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.container__product .quantity button:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.container__product .remove-product {
+  background-color: #c72828;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.container__product .total-product-preis:before {
+  content: "Product Total: $";
+  font-size: 18px;
+}
+
+.main__preis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__preis .preis_info {
+  border-top: 1px solid #bdbdbd;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 90%;
+  line-height: 1.2;
+}
+
+.main__preis .preis_info p {
+  display: block;
+  width: 50%;
+}
+
+.main__preis .preis_info p:nth-child(2) {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

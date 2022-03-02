@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckoutPage</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"><h1>Checkout</h1></div>
+    <div class="main">
+        <div class="container">
+            <div class="container__product">
+                <img src="./IMG/photo1.png" alt="">
+                <div class="product_info">
+                    <h3>Vintage Backbag</h3>
+                    <div class="product__preis">
+                        <p class=" vintage"><strong class="strong vintage">25.98</strong><span class="span_del"><del>$34.99</del></span></p>
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">
+                            <i class='fa fa-minus' aria-hidden="true"></i>
+                        </button>
+                        <p class="product__quantity">1</p>
+                        <button>
+                            <i class='fa fa-plus'></i>
+                        </button>
+                    </div>
+                    <div class="del__button">
+                        <button class="remove-product">Remove</button>
+                    </div>
+                    <div class="total-product-preis">25.98</div>
+                </div>
+            </div>
+            <div class="container__product">
+                <img src="./IMG/photo2.png" alt="">
+                <div class="product_info">
+                    <h3>Levi Shoes</h3>
+                    <div class="product__preis">
+                        <p class=" vintage"><strong class="strong levi">45.99</strong><span class="span_del"><del>$54.99</del></span></p>
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">
+                            <i class='fa fa-minus' aria-hidden="true"></i>
+                        </button>
+                        <p class="product__quantity">1</p>
+                        <button>
+                            <i class='fa fa-plus'></i>
+                        </button>
+                    </div>
+                    <div class="del__button">
+                        <button class="remove-product">Remove</button>
+                    </div>
+                    <div class="total-product-preis">45.99</div>
+                </div>
+            </div>
+            <div class="container__product">
+                <img src="./IMG/photo3.jpg" alt="">
+                <div class="product_info">
+                    <h3>Antiwue Clock</h3>
+                    <div class="product__preis">
+                        <p class=" vintage"><strong class="strong clock">74.99</strong><span class="span_del"><del>$94.99</del></span></p>
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">
+                            <i class='fa fa-minus' aria-hidden="true"></i>
+                        </button>
+                        <p class="product__quantity">1</p>
+                        <button>
+                            <i class='fa fa-plus'></i>
+                        </button>
+                    </div>
+                    <div class="del__button">
+                        <button class="remove-product">Remove</button>
+                    </div>
+                    <div class="total-product-preis">74.99</div>
+                </div>
+            </div>
+        </div>
+        <div class="main__preis">
+            <div class="preis_info">
+                <p>Subtotal</p>
+                <p class="result subtotal">0</p>
+            </div>
+            <div class="preis_info">
+                <p>Tax(%18) </p>
+                <p class="result tax">0</p>
+            </div>
+            <div class="preis_info">
+                <p>Shipping </p>
+                <p class="result shipping">0</p>
+            </div>
+            <div class="preis_info ">
+                <p>Total </p>
+                <p class="result total">0</p>
+            </div>   
+        </div>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>
